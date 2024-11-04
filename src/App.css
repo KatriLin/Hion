@@ -214,7 +214,22 @@ body {
   align-items: center;
   height: 100vh;
 }
-
+.application-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.left-column,
+.right-column {
+  width: calc(50% - 40px);
+  margin: 10px 0 10px 0;
+  box-sizing: border-box;
+}
+.application-text {
+  color: rgba(95, 99, 104);
+}
 .myname {
   text-transform: uppercase;
   color: white;
@@ -329,7 +344,7 @@ body {
   margin-bottom: 40px;
 }
 .description-text {
-  color: rgba(68, 72, 77 s);
+  color: rgba(95, 99, 104);
 }
 .image-container-zefram {
   background-color: #fcb900;
@@ -504,6 +519,10 @@ body {
   .myname {
     font-size: 0.75rem;
     letter-spacing: 0.15em;
+  }
+  .left-column,
+  .right-column {
+    width: 100%;
   }
   .styled-image {
     max-height: 343px;

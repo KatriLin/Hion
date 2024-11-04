@@ -21,10 +21,12 @@ const About = () => {
         <div className="box">
           <h3>Aina oppimassa uutta</h3>
           <p className="box-text">
-            Olet aina kiinnostunut oppimaan uutta ja kehittämään itseäsi.
-            Teknologia-ala tarjoaa tähän erinomaiset puitteet. Tällä hetkellä
-            opiskelen Wordpressiä ja syvennän React.js tietouttani, mikä
-            mahdollistaa monipuolisten verkkosovellusten kehittämisen.
+            Olen junior-ohjelmistokehittäjä, jonka osaaminen painottuu
+            erityisesti Frontendiin, mutta haluaisin kasvattaa osaamistani Full
+            Stack -rooliin. Olen aina kiinnostunut oppimaan uutta ja kehittämään
+            itseäni. Teknologia-ala tarjoaa tähän erinomaiset puitteet. Tällä
+            hetkellä opiskelen WordPressiä ja syvennän React.js-tietouttani,
+            mikä mahdollistaa monipuolisten verkkosovellusten kehittämisen.
           </p>
         </div>
         <div className="box">
@@ -32,7 +34,7 @@ const About = () => {
           <p className="box-text">
             Uskon, että kaikille asioille löytyy aina ratkaisu. Haasteiden
             edessä pysyn positiivisena ja etsin keinoja edetä. Nautin tuotteiden
-            visuaalisen puolen toteuttamisesta,ja koen tämän tärkeäksi
+            visuaalisen puolen toteuttamisesta ja koen tämän tärkeäksi
             loppukäyttäjän näkökulmasta.
           </p>
         </div>

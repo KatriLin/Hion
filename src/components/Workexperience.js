@@ -19,7 +19,7 @@ const Workexperience = () => {
             <p className="description-text">
               Työskentelin Zeframilla muutaman vuoden ohjelmistokehittäjänä,
               jossa rakensin erityisesti ohjelmia datan keruuta varten käyttäen
-              Pythonia ja Selenumia. Reactia hyödynsin muissa projekteissa,
+              Pythonia ja Seleniumia. Reactia hyödynsin muissa projekteissa,
               kuten yrityksemme tuotteen ja verkkosivujen kehittämisessä.
               Tietokantoina käytin PostgreSQL:ää, ja lisäksi tuotin
               opetusaineistoja koneoppimismalleille.
@@ -34,8 +34,8 @@ const Workexperience = () => {
           <div className="description">
             <h3>Junior Software Developer</h3>
             <p className="description-text">
-              RND Works:llä työskennellessäni kehitimme tiimin kanssa
-              mobiiliaplikaatiota asiakkaallemme iOS ja Adroid laitteille
+              RND Worksillä työskennellessäni kehitimme tiimin kanssa
+              mobiilisovellusta asiakkaallemme iOS- ja Android-laitteille
               käyttäen React Nativea.
             </p>
           </div>
@@ -52,8 +52,8 @@ const Workexperience = () => {
           <div className="description">
             <h3>Junior Software Developer Trainee</h3>
             <p className="description-text">
-              Tarjoilijoiden tilausjärjestelmän ohjelmistokehittämistä, käyttäen
-              Javascriptiä, PostgreSQL, sekä Javaa.
+              Ohjelmoin tarjoilijoiden tilausjärjestelmän hyödyntäen
+              JavaScriptiä, PostgreSQL:ää ja Javaa.
             </p>
           </div>
         </div>

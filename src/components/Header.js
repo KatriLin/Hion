@@ -10,7 +10,6 @@ const Header = () => {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
-    console.log('aukii');
   };
 
   return (
@@ -49,7 +48,10 @@ const Header = () => {
         </ul>
 
         {/* Hamburger-menu */}
-        <div className="hamburger" onClick={toggleMenu}>
+        <div
+          className={`hamburger ${isHome ? 'home' : ''} ${menuOpen ? 'active' : ''}`}
+          onClick={toggleMenu}
+        >
           <div className="line1"></div>
           <div className="line2"></div>
           <div className="line3"></div>
@@ -57,16 +59,20 @@ const Header = () => {
       </nav>
       {/* Hamburger-menu */}
       {menuOpen && (
-        <div className={`dropdown-menu ${menuOpen ? 'active' : ''}`}>
+        <div className={`dropdown-menu ${isHome ? 'home' : 'other'}`}>
           <ul className="overlay-menu">
             <li>
-              <Link className="hamburgerlinks" to="/" onClick={toggleMenu}>
+              <Link
+                className={`hamburgerlinks ${isHome ? 'home-link' : 'black-link'}`}
+                to="/"
+                onClick={toggleMenu}
+              >
                 Etusivu
               </Link>
             </li>
             <li>
               <Link
-                className="hamburgerlinks"
+                className={`hamburgerlinks ${isHome ? 'home-link' : 'black-link'}`}
                 to="/workexperience"
                 onClick={toggleMenu}
               >
@@ -74,13 +80,17 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link className="hamburgerlinks" to="/about" onClick={toggleMenu}>
+              <Link
+                className={`hamburgerlinks ${isHome ? 'home-link' : 'black-link'}`}
+                to="/about"
+                onClick={toggleMenu}
+              >
                 Minusta
               </Link>
             </li>
             <li>
               <Link
-                className="hamburgerlinks"
+                className={`hamburgerlinks ${isHome ? 'home-link' : 'black-link'}`}
                 to="/contact"
                 onClick={toggleMenu}
               >

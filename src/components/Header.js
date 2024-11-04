@@ -36,6 +36,11 @@ const Header = () => {
             </Link>
           </li>
           <li>
+            <Link className="mainmenulinks" to="/education">
+              Koulutus
+            </Link>
+          </li>
+          <li>
             <Link className="mainmenulinks" to="/about">
               Minusta
             </Link>
@@ -77,6 +82,15 @@ const Header = () => {
                 onClick={toggleMenu}
               >
                 Työkokemus
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={`hamburgerlinks ${isHome ? 'home-link' : 'black-link'}`}
+                to="/education"
+                onClick={toggleMenu}
+              >
+                Koulutus
               </Link>
             </li>
             <li>

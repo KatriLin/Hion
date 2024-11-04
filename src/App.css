@@ -297,8 +297,12 @@ body {
   font-size: 4.5rem;
   margin: 0;
 }
+.edu-heading {
+  font-size: 4.5rem;
+  margin: 0;
+}
 
-.background-grey-work {
+.background-grey-wrapper {
   background-image: url('https://www.hiondigital.com/app/themes/hion/public/images/grid-grey-transparent.34483d.svg');
   background-size: cover;
   background-position: center;
@@ -313,9 +317,16 @@ body {
   justify-content: center;
   gap: 40px;
 }
+.eduboxes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
 
 .description {
   max-width: 400px;
+  margin-bottom: 40px;
 }
 .description-text {
   color: rgba(68, 72, 77 s);
@@ -324,7 +335,6 @@ body {
   background-color: #fcb900;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 400px;
   height: 250px;
   overflow: hidden;
@@ -342,7 +352,6 @@ body {
   background-color: rgba(70, 5, 222);
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 400px;
   height: 250px;
   overflow: hidden;
@@ -361,7 +370,6 @@ body {
   background-color: #ff6900;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 400px;
   height: 250px;
   overflow: hidden;
@@ -382,11 +390,68 @@ body {
   margin-left: 10rem;
   padding: 2rem;
 }
+.edu-heading-2 {
+  margin-left: 10rem;
+  padding: 2rem;
+}
 
 .hamburger {
   display: none;
 }
-
+.image-container-bc {
+  background-color: #00d084;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.styled-image-bc {
+  clip-path: inset(0);
+  object-fit: cover;
+  border-radius: 8px;
+}
+.image-container-cagliari {
+  background-color: #fcb900;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.styled-image-cagliari {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.image-container-canterbury {
+  background-color: #ff6900;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.styled-image-canterbury {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  object-fit: cover;
+}
 /* tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
   .main {
@@ -448,7 +513,14 @@ body {
   .work-heading {
     font-size: 3rem;
   }
+  .edu-heading {
+    font-size: 3rem;
+  }
   .work-heading-2 {
+    margin-left: 30px;
+    padding: 0;
+  }
+  .edu-heading-2 {
     margin-left: 30px;
     padding: 0;
   }
@@ -486,6 +558,9 @@ body {
   .workboxes-container {
     margin: 20px;
   }
+  .eduboxes-container {
+    margin: 20px;
+  }
   .mainmenulinks {
     display: none;
   }
@@ -500,6 +575,26 @@ body {
   .image-container-zucchetti {
     padding: 0;
     max-height: 240px;
+  }
+  .image-container-bc {
+    padding: 0;
+    max-height: 240px;
+  }
+  .image-container-cagliari {
+    padding: 0;
+    max-height: 240px;
+  }
+  .styled-image-bc {
+    max-height: 200px;
+    max-width: 200px;
+  }
+  .image-container-canterbury {
+    padding: 0;
+    max-height: 240px;
+  }
+  .styled-image-canterbury {
+    max-height: 200px;
+    max-width: 200px;
   }
   .contacttext {
     font-size: 2rem;

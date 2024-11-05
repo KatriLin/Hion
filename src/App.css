@@ -217,18 +217,18 @@ body {
 .application-container {
   display: flex;
   justify-content: space-between;
-  margin: 40px;
+  margin: 50px;
   padding: 10px;
   flex-wrap: wrap;
 }
 .left-column,
 .right-column {
   width: calc(50% - 40px);
-  margin: 10px 0 10px 0;
   box-sizing: border-box;
 }
 .application-text {
   color: rgba(95, 99, 104);
+  margin-bottom: 30px;
 }
 .myname {
   text-transform: uppercase;
@@ -640,5 +640,8 @@ body {
     position: absolute;
     right: 10px;
     margin: 20px 40px 40px 40px;
+  }
+  .application-container {
+    margin: 20px;
   }
 }

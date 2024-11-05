@@ -22,8 +22,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div class="application-container">
-        <div class="left-column">
+      <div className="application-container">
+        <div className="left-column">
           <h2>Kuka olen?</h2>
           <p className="application-text">
             Nimeni on Katri Lindvall, ja olen juniori-ohjelmistokehittäjä. Etsin
@@ -45,7 +45,7 @@ const Home = () => {
           </p>
         </div>
 
-        <div class="right-column">
+        <div className="right-column">
           <h2>Mitä olen tehnyt aikaisemmin?</h2>
           <p className="application-text">
             Aikaisemmassa työssäni Stealth Black Oy:ssä työskentelin

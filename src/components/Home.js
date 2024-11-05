@@ -26,8 +26,8 @@ const Home = () => {
         <div className="left-column">
           <h2>Kuka olen?</h2>
           <p className="application-text">
-            Nimeni on Katri Lindvall, ja olen juniori-ohjelmistokehittäjä. Etsin
-            tällä hetkellä täysipäiväistä ohjelmistokehittäjän paikkaa.
+            Olen Katri Lindvall, juniori-ohjelmistokehittäjä ja etsin
+            parhaillaan kokoaikaista työtä ohjelmistokehityksen parista.
             Osaamiseni painottuu erityisesti frontend-kehitykseen, mutta
             haluaisin tulevaisuudessa laajentaa osaamistani myös Full Stack
             -rooliin.

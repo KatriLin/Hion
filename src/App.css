@@ -289,24 +289,25 @@ body {
 }
 
 .boxes-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 
 .box {
-  flex: 1 1 300px;
-  max-width: 300px;
-  margin: 1rem;
-  padding: 1rem;
+  padding: 20px;
 }
+
 .box-text {
   color: rgba(95, 99, 104);
 }
 .about-header-2 {
   font-size: 2.25rem;
-  margin-left: 15rem;
+  grid-column: 1 / -1;
+  margin-bottom: 20px;
 }
 .work-heading {
   font-size: 4.5rem;
@@ -327,16 +328,20 @@ body {
   justify-content: center;
 }
 .workboxes-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 .eduboxes-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 
 .description {
@@ -402,12 +407,12 @@ body {
 }
 
 .work-heading-2 {
-  margin-left: 10rem;
-  padding: 2rem;
+  grid-column: 1 / -1;
+  margin-bottom: 20px;
 }
 .edu-heading-2 {
-  margin-left: 10rem;
-  padding: 2rem;
+  grid-column: 1 / -1;
+  margin-bottom: 20px;
 }
 
 .hamburger {
@@ -492,6 +497,14 @@ body {
   .about-text-2 {
     margin: 20px 20px 50px 20px;
   }
+  .about-photo {
+    margin-left: 0;
+  }
+  .boxes-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: start;
+  }
+
   .hamburger {
     display: block;
     cursor: pointer;
@@ -502,6 +515,12 @@ body {
 
   .mainmenulinks {
     display: none;
+  }
+  .eduboxes-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .workboxes-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -535,15 +554,12 @@ body {
   .edu-heading {
     font-size: 3rem;
   }
-  .work-heading-2 {
-    margin-left: 30px;
-    padding: 0;
+  .eduboxes-container {
+    grid-template-columns: 1fr;
   }
-  .edu-heading-2 {
-    margin-left: 30px;
-    padding: 0;
+  .workboxes-container {
+    grid-template-columns: 1fr;
   }
-
   .contwrapper {
     display: flex;
     flex-direction: column;
@@ -556,7 +572,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin-right: 0;
   }
   .about-photo {
     max-width: 90%;
@@ -570,16 +586,10 @@ body {
     font-size: 1rem;
     margin-top: 30px;
   }
-  .about-header-2 {
-    margin-left: 20px;
+  .boxes-container {
+    grid-template-columns: 1fr;
   }
 
-  .workboxes-container {
-    margin: 20px;
-  }
-  .eduboxes-container {
-    margin: 20px;
-  }
   .mainmenulinks {
     display: none;
   }

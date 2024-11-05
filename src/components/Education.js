@@ -8,8 +8,9 @@ const Education = () => {
       <div className="background-grey-wrapper">
         <h1 className="edu-heading">Koulutus</h1>
       </div>
-      <h2 className="edu-heading-2">Koulutus</h2>
+
       <div className="eduboxes-container">
+        <h2 className="edu-heading-2">Koulutus</h2>
         <div className="study-box-bc">
           <div className="image-container-bc">
             <img alt="bclogo" src={bc} className="styled-image-bc" />

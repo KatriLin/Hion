@@ -16,8 +16,10 @@ const About = () => {
           <img alt="kuva" src={kuva} className="about-photo" />
         </div>
       </div>
-      <h2 className="about-header-2">Kulmakiveni</h2>
+
       <div className="boxes-container">
+        <h2 className="about-header-2">Kulmakiveni</h2>
+
         <div className="box">
           <h3>Aina oppimassa uutta</h3>
           <p className="box-text">

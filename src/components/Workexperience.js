@@ -8,8 +8,9 @@ const Workexperience = () => {
       <div className="background-grey-wrapper">
         <h1 className="work-heading">Työkokemus</h1>
       </div>
-      <h2 className="work-heading-2">Työkokemus</h2>
+
       <div className="workboxes-container">
+        <h2 className="work-heading-2">Työkokemus</h2>
         <div>
           <div className="image-container-zefram">
             <img alt="zeframlogo" src={zefram} className="styled-image-zef" />
